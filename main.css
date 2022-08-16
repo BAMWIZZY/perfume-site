@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'montserrat', sans-serif;
+    font-size: small;
+    line-height: 1.5;
+    padding-top: 70px;
+}
+
+.perfume-picture {
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 360px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.perfume-text {
+    background-color: white;
+    position: relative;
+    left: 653px;
+    text-align: left;
+    width: 230px;
+    height: 370px;
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+
+.btn {
+    background: hsl(158, 36%, 37%);
+    background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 16px 40px 16px 40px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: hsl(158, 36%, 37%);
+    background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+}
+.footer-container {
+    position: relative;
+    top: 46px;
+}
+.price {
+    color:hsl(158, 36%, 37%) ;
+    position: relative;
+    top: 25px;
+}
+.old-price {
+    text-decoration: line-through;
+    float: right;
+    position: relative;
+    bottom: 35px;
+    right: 80px;
+}
+.gabrielle {
+    width: 250px;
+    position: relative;
+}
+
+h5 {
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 500px;
+
+}
+
+@media screen {
+    
+}
